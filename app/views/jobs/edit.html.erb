@@ -1,0 +1,12 @@
+<h1>Editing job</h1>
+
+<%= render "form", job: @job %>
+
+<br>
+
+
+
+<div class="btn-group" role="group" aria-label="Basic outlined example">
+  <button type="button" class="btn btn-outline-primary" style="text-decoration: none; color: black"><%= link_to "Show this job", @job %></button>
+  <button type="button" class="btn btn-outline-primary"><%= link_to "Back to jobs", jobs_path %></button>
+</div>
